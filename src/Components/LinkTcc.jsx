@@ -17,7 +17,7 @@ const LinkTcc = () => {
         <div className="imagem">
             <img src={TCC} alt="Imagem de como seria do tcc" />
         </div>
-        <div className="butao">
+        <div className="botao">
             <nav>
               <ul>
               <Link to ="/Lance" className='link-sem-sublinhado'> <strong> Clique aqui  </strong><br />

@@ -23,17 +23,14 @@
     margin-bottom: 2rem;
 }
 
-.butao {
+.botao {
     background-color: var(--azul-transp);
     width: 20rem;
     padding: 1rem;
     border-radius: 3rem;
     text-align: center;
     font-size: 1.2rem;
-    margin-left: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto; /* Centraliza horizontalmente */
 }
 
 .link-sem-sublinhado {
@@ -42,11 +39,11 @@
     text-align: center;
 }
 
-.butao strong {
+.botao strong {
     font-size: larger;
 }
 
-.butao:hover {
+.botao:hover {
     background: none;
 }
 
@@ -68,8 +65,8 @@
         margin-bottom: 1rem; /* Ajusta a margem inferior para dispositivos menores */
     }
 
-    .butao {
-        font-size: 1rem; /* Reduz o tamanho da fonte */
-        margin: 1rem auto; /* Centraliza o botão horizontalmente */
+    .botao {
+        font-size: 1.4rem; /* Reduz o tamanho da fonte */
+        margin: 2rem auto; /* Centraliza o botão horizontalmente */
     }
 }

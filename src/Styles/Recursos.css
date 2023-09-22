@@ -1,34 +1,52 @@
+.Recursos {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.Texto-lancamento {
+  text-align: start;
+  margin-bottom: 1rem;
+}
 
 .Blocos {
-    background-color: rgba(229, 223, 223, 0.38);
-    border-radius: 2rem;
-    margin: 4rem;
-    display: flex; /* Define o contêiner como flexível para organizar imagem e texto lado a lado */
-    align-items: center; /* Centraliza verticalmente os elementos dentro do contêiner */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bloquinho {
+  flex-basis: calc(33.33% - 10px);
+  margin: 0.3rem; /* Aumentei a margem */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 22.5rem;
+}
+
+.Blocos img {
+  margin-left: 0; /* Removi a margem esquerda */
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 0.5rem; /* Aumentei o espaçamento entre imagem e texto */
+}
+
+.Blocos-text {
+  font-size: 1.2rem;
+  background: #9595958a;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 100%;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .Blocos {
+    justify-content: center;
   }
-  
-  .Blocos img {
-    height: 300px;
-    width: 300px; /* Define a largura máxima da imagem (ajuste conforme necessário) */
-    margin-right: 1.6rem; /* Espaçamento entre a imagem e o texto (ajuste conforme necessário) */
-  }
-  
-  .Blocos-text {
-    flex: 1; /* Permite que o texto ocupe o espaço restante no contêiner */
-  }
-  
-  
-  .Blocos p {
-    font-size: 2rem;
-    background: #9595958a;
-    border-radius: 2rem;
-    padding: 0.5rem;
-    width: 30rem;
-  }
+
   .bloquinho {
-    align-items: center;
-    text-align: center;
-    max-width: 50%;
-    margin: 4rem;
+    flex-basis: calc(50% - 10px);
+    margin: 0.3rem; /* Ajustei a margem para telas menores */
   }
-  
+}
