@@ -53,9 +53,12 @@
     .quadrados {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        padding-right: 2rem;
     }
     
     .item3, .item2, .item1 {
         width: 100%;
+        
     }
 }
